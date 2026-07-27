@@ -2,10 +2,24 @@ package com.example.myapplication.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Premium Brand Orange
+val BrandOrange = Color(0xFFFF9E80)       // Deep, vivid orange
+val LightOrangeAccent = Color(0xFFFFE0B2) // Soft pastel orange for container backgrounds
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+// Light Scheme (Orange and White)
+val LightPrimary = BrandOrange
+val LightOnPrimary = Color(0xFFFFFFFF)
+val LightPrimaryContainer = LightOrangeAccent
+val LightSecondary = Color(0xFFE65100)
+val LightSurface = Color(0xFFFFFFFF)       // Pure White
+val LightOnSurface = Color(0xFF1E1E1E)
+val LightOnSurfaceVariant = Color(0xFF5F5F5F)
+
+// Dark Scheme (Orange and Black)
+val DarkPrimary = BrandOrange
+val DarkOnPrimary = Color(0xFF000000)      // Black text on orange elements
+val DarkPrimaryContainer = Color(0xFFFF5722)
+val DarkSecondary = Color(0xFFFFB74D)
+val DarkSurface = Color(0xFF000000)       // Pure Black
+val DarkOnSurface = Color(0xFFFFFFFF)
+val DarkOnSurfaceVariant = Color(0xFFFFFFFF)
